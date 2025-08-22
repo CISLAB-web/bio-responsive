@@ -1,29 +1,19 @@
 ---
-# Documentation: https://docs.hugoblox.com/managing-content/
-
-title: "Hello World"
+title: Hello World
 subtitle: ""
+date: 2025-08-20T15:18:39+09:00
 summary: ""
+draft: false
+featured: false
 authors: []
+lastmod: 2025-08-20T15:18:39+09:00
 tags: []
 categories: []
-date: 2025-08-20T15:18:39+09:00
-lastmod: 2025-08-20T15:18:39+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+projects: []
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+  filename: 图片_2025-08-20_112432_168.jpg
 ---
+This is test 01
