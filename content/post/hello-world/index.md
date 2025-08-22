@@ -13,7 +13,7 @@ projects: []
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
   filename: 图片_2025-08-20_112432_168.jpg
 ---
 This is test 01
