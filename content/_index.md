@@ -14,14 +14,14 @@ sections:
       text: |
         <br>
         
-        The ** Computational Interactive System (CIS) ** Laboratory at Dankook University explores cutting-edge research in Computer Vision, Generative Models, and Human–Computer Interaction, aiming to build intelligent systems that connect perception and interaction.
+        The **Computational Interactive System (CIS)** Laboratory at Dankook University conducts cutting-edge research in accessible AI technologies, including assistive robotics, sign language generation, and computer vision, with the goal of enhancing human–computer interaction and improving accessibility for people with disabilities.
   
   - block: collection
     content:
       title: Latest News
       subtitle:
       text:
-      count: 5
+      count: 3
       filters:
         author: ''
         category: ''
