@@ -6,7 +6,7 @@ summary: SUMMARY OPTIONAL
 draft: false
 featured: true
 authors:
-  - CHUXIN
+  - "02"
 lastmod: 2025-08-20T15:18:39+09:00
 tags: []
 categories: []
