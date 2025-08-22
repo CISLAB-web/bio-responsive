@@ -1,11 +1,12 @@
 ---
 title: Hello World
-subtitle: ""
+subtitle: test
 date: 2025-08-20T15:18:39+09:00
-summary: ""
+summary: SUMMARY OPTIONAL
 draft: false
-featured: false
-authors: []
+featured: true
+authors:
+  - CHUXIN
 lastmod: 2025-08-20T15:18:39+09:00
 tags: []
 categories: []
