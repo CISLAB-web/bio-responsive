@@ -28,9 +28,9 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
-        align: right
+      - title: Computational Interactive System (CIS) Lab
+        content: 'Join us and shape the future of interactive AI!'
+        align: center
         background:
           image:
             filename: welcome.jpg
@@ -51,7 +51,7 @@ sections:
       loop: true
       # Duration of transition between slides (in ms)
       interval: 6000
-      
+
   - block: hero
     content:
       title: |
@@ -121,6 +121,7 @@ sections:
       subtitle:
       text: |
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        
     design:
       columns: '1'
 ---
