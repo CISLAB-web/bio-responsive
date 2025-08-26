@@ -1,7 +1,7 @@
 ---
 title: People
-date: 2022-10-24
-
+date: 2025-08-26
+draft: false
 type: landing
 
 sections:
