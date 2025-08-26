@@ -19,11 +19,11 @@ main:
     identifier: people   # 给父菜单一个唯一 id
 
   - name: Professor
-    url: people/professor
+    url: professor
     parent: people
     weight: 31
   - name: Researcher
-    url: people/researcher
+    url: researcher
     parent: people
     weight: 32
 
