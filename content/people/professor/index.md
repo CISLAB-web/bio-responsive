@@ -1,5 +1,5 @@
 ---
-title: People
+title: people/professor
 date: 2025-08-26
 draft: false
 type: landing
