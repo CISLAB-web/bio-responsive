@@ -1,0 +1,71 @@
+/* ===== CIS Lab footer ===== */
+.lab-footer {
+  --bg: #0b0f1a;
+  --fg: #c9d4f6;
+  --fg-muted: #aab6e6;
+  --accent: #9fd1ff;
+  --card: rgba(255,255,255,.06);
+
+  background: var(--bg);
+  color: var(--fg);
+  padding: 2.5rem 0 2rem;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.lab-footer .container { max-width: 1120px; }
+
+.lab-footer a { color: var(--accent); text-decoration: none; }
+.lab-footer a:hover { text-decoration: underline; }
+
+.lab-footer h3 {
+  margin: 0 0 .75rem 0;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: .2px;
+  text-align: left;
+}
+
+.lab-footer__grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+  align-items: start;
+  text-align: left;
+}
+
+.lab-footer p { margin: 0 0 .5rem 0; color: var(--fg); }
+.lab-footer i { margin-right: .5rem; opacity: .9; }
+
+/* 社交图标：圆形按钮 + 悬停 */
+.lab-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem; height: 2.1rem;
+  margin-right: .5rem;
+  border-radius: 999px;
+  background: var(--card);
+  color: #e9f2ff;
+}
+.lab-social a:hover { background: rgba(255,255,255,.12); }
+
+/* 地图：16:9 等比、圆角、隐藏溢出 */
+.lab-footer__map { position: relative; padding-top: 56.25%; border-radius: 12px; overflow: hidden; }
+.lab-footer__map iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* 版权行：细分隔线 + 居中 */
+.lab-footer__copy {
+  margin-top: 1.25rem;
+  padding-top: .75rem;
+  border-top: 1px solid rgba(255,255,255,.08);
+  opacity: .75;
+  font-size: .9rem;
+  text-align: center;
+}
+
+/* 响应式三列 */
+@media (min-width: 900px) {
+  .lab-footer__grid { grid-template-columns: 1.2fr 0.9fr 1fr; gap: 1.5rem; }
+  .lab-footer { padding: 3rem 0; }
+}
