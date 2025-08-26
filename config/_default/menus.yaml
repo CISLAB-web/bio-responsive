@@ -23,7 +23,7 @@ main:
     parent: people
     weight: 31
   - name: Researcher
-    url: people/Researcher
+    url: people/researcher
     parent: people
     weight: 32
 
