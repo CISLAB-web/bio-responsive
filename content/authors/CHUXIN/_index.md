@@ -5,7 +5,7 @@ organizations:
 superuser: false
 authors:
   - 吳恩達
-title: 김창호
+title: 성정훈
 role: ""
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
