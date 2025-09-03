@@ -1,6 +1,6 @@
 ---
 title: 최용근
-role: Professor of Artificial Intelligence
+role: Professor, Dept. of Computer Engineering
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
@@ -21,26 +21,26 @@ social:
     icon_pack: fab
     link: https://github.com/gcushen
 organizations:
-  - name: Stanford University
+  - name: Dankook University
     url: ""
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Ph.D. in Computer Science
+      institution: University of Southern California, USA
+      year: 2010
+    - course: M.S. in Computer Science
+      institution: University of Southern California, USA
+      year: 2005
+    - course: B.S. in Electrical Engineering, and Aerospace Engineering
+      year: 1997
+      institution: KAIST, Korea
 superuser: true
 user_groups:
   - Supervisor
 last_name: Bighetti
 highlight_name: false
 first_name: Nelson
-email: ""
+email: younggch@dankook.ac.kr
 ---
 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
