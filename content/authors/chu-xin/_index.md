@@ -5,7 +5,7 @@ organizations:
 superuser: true
 authors:
   - 储鑫
-title: CHU XIN
+title: 정지욱
 role: Professor of Artificial Intelligence
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
@@ -39,7 +39,7 @@ education:
       year: 2008
 email: ""
 user_groups:
-  - Researchers
+  - Undergraduate
 last_name: CHU
 first_name: XIN
 ---
