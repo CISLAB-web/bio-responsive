@@ -2,7 +2,6 @@
 title: "Effect of smartphone application-supported self-rehabilitation for
   frozen shoulder: a prospective randomized control study"
 publication_types:
-  - paper-conference
   - article-journal
 authors:
   - Younggeun Choi
