@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Publication
 publication_types:
   - manuscript
 draft: false
