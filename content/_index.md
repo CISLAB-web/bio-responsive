@@ -13,21 +13,21 @@ sections:
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: welcome.jpg
             filters:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
-        background:
-          image:
-            filename: contact.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
+#      - title: Lunch & Learn ☕️
+#        content: 'Share your knowledge with the group and explore exciting new topics together!'
+#        align: left
+#        background:
+#          image:
+#            filename: contact.jpg
+#            filters:
+#              brightness: 0.7
+#          position: center
+#          color: '#555'
       - title: Computational Interactive System (CIS) Lab
         content: 'Join us and shape the future of interactive AI!'
         align: center
@@ -45,7 +45,7 @@ sections:
           url: ../bio-responsive/contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '500px'
+      slide_height: '1000px'
       is_fullscreen: false
       # Automatically transition through slides?
       loop: true
@@ -57,7 +57,7 @@ sections:
       title: |
         Computational Interactive System
       image:
-        filename: welcome.jpg
+        filename: research/aloha.png
       text: |
         <br>
         

@@ -9,41 +9,47 @@ sections:
     content:
       title: Contact
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-      email: test@example.org
-      phone: 888 888 88 88
+        **Join the CIS Lab @ Dankook University**
+      
+        We are continuously recruiting motivated researchers (undergraduate interns, master’s, PhD, and postdocs). Our research spans assistive robotics, sign language generation, computer vision, human–robot interaction, and embodied AI.
+      
+        **How to apply**
+        - Email your CV, transcript (optional), and a brief statement of interests (≤300 words).
+        - If available, include links to publications, projects, or code repositories.
+      
+        Applications are reviewed on a rolling basis. we look forward to hearing from you.
+      email: younggch@dankook.ac.kr
+
+
+      phone: ---
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
+        street: 152, Jukjeon-ro Suji-gu
+        city: Yongin-si
+        region: Gyeonggi-do
+        postcode: '16890'
+        country: South Korea
+        country_code: KR
       coordinates:
         latitude: '37.32044'
         longitude: '127.1262'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      directions: Room 504/520, Engineering Building 2, Dankook University
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-#      appointment_url: 'https://calendly.com'
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
-    
-      # Automatically link email and phone or display as text?
+        - 'Monday 10:00 to 22:00'
+        - 'Tuesday 10:00 to 22:00'
+        - 'Wednesday 10:00 to 22:00'
+        - 'Thursday 10:00 to 22:00'
+        - 'Friday 10:00 to 22:00'
+
       autolink: true
     
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+#      form:
+#        provider: netlify
+#        formspree:
+#          id:
+#        netlify:
+#          # Enable CAPTCHA challenge to reduce spam?
+#          captcha: false
     design:
       columns: '1'
 
@@ -56,7 +62,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: contact.jpg
+          filename: welcome.jpg
           filters:
             brightness: 1
           parallax: false

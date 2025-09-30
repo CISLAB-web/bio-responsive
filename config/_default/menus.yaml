@@ -5,34 +5,57 @@
 
 main:
   - name: Home
-    url: home
+    url: /
     weight: 10
   - name: Research
     url: research
     weight: 10
-  - name: News
-    url: post
-    weight: 20
+
+  - name: Publications
+    url: publication
+    weight: 50
+
+  - name: Project
+    url: project
+    weight: 50
+
   - name: People
     url: people
     weight: 30
     identifier: people   # 给父菜单一个唯一 id
 
   - name: Professor
-    url: professor
+    url: ./author/최용근/
     parent: people
     weight: 31
   - name: Researcher
     url: researcher
     parent: people
     weight: 32
+  - name: Alumni
+    url: Alumni
+    parent: people
+    weight: 30
 
-  - name: Events
-    url: event
-    weight: 40
-  - name: Publications
-    url: publication
-    weight: 50
+#  - name: Events
+#    url: event
+#    weight: 40
+#
+#  - name: Contact
+#    url: contact
+#    weight: 60
+
+  - name: More
   - name: Contact
     url: contact
-    weight: 60
+    weight: 30
+    parent: More
+  - name: Events
+    url: event
+    weight: 30
+    parent: More
+  - name: News
+    weight: 30
+    url: post
+    parent: More
+

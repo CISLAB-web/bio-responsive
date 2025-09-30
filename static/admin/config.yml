@@ -3,7 +3,7 @@ backend:
   name: git-gateway
   squash_merges: true
 collections:
-- create: true
+- create: true  # Authors
   fields:
   - label: Display name (such as your full name)
     name: title
@@ -327,7 +327,7 @@ collections:
   label_singular: Project
   name: projects
   path: '{{slug}}/index'
-- create: true
+- create: true # Content
   fields:
   - label: Title
     name: title
@@ -598,7 +598,7 @@ collections:
   label_singular: Publication
   name: publications
   path: '{{slug}}/index'
-- create: true
+- create: true  # publication
   fields:
   - label: Title
     name: title
@@ -671,6 +671,7 @@ collections:
   label_singular: Slides
   name: slides
   path: '{{slug}}/index'
+
 - files:
   - fields:
     - label: Title
@@ -695,9 +696,10 @@ collections:
     - label: Body
       name: body
       widget: markdown
-    file: content/privacy.md
-    label: Privacy Policy
-    name: privacy
+    file: content/home/index.md
+    label: Home
+    name: Home
+
   - fields:
     - label: Title
       name: title
@@ -726,7 +728,182 @@ collections:
     name: terms
   label: Pages
   name: pages
-local_backend: false
+
+- name: homepage
+  label: Homepage
+  files:
+    - label: Homepage
+      name: homepage
+      file: content/_index.md
+      format: yaml-frontmatter
+      fields:
+        # 把你之前为首页写的 “fields:” 原样移到这里，多缩进两层
+        # 例如：
+        - {label: Page Type, name: type, widget: hidden, default: "landing"}
+        - {label: Title (optional), name: title, widget: string, required: false}
+
+        - label: Sections
+          name: sections
+          widget: list
+          typeKey: block
+          types:
+            # === Slider ===
+            - label: Slider
+              name: slider
+              widget: object
+              fields:
+                - {label: block, name: block, widget: hidden, default: "slider"}
+                - label: Content
+                  name: content
+                  widget: object
+                  fields:
+                    - label: Slides
+                      name: slides
+                      widget: list
+                      summary: "{{fields.title}}"
+                      fields:
+                        - {label: Title, name: title, widget: string}
+                        - {label: Content, name: content, widget: text}
+                        - {label: Align, name: align, widget: select, options: [left, center, right], default: center}
+                        - label: Background
+                          name: background
+                          widget: object
+                          fields:
+                            - label: Image
+                              name: image
+                              widget: object
+                              fields:
+                                - {label: File, name: filename, widget: image}
+                                - label: Filters
+                                  name: filters
+                                  widget: object
+                                  required: false
+                                  fields:
+                                    - {label: Brightness (0–1), name: brightness, widget: number, value_type: float, min: 0, max: 1, step: 0.05, default: 0.7}
+                            - {label: Position, name: position, widget: select, options: [left, center, right, top, bottom], default: center}
+                            - {label: Overlay Color, name: color, widget: string, required: false}
+                        - label: Link (optional)
+                          name: link
+                          widget: object
+                          required: false
+                          fields:
+                            - {label: Icon, name: icon, widget: string, required: false}
+                            - {label: Icon Pack, name: icon_pack, widget: select, options: [fas, far, fab, ai], required: false}
+                            - {label: Text, name: text, widget: string, required: false}
+                            - {label: URL, name: url, widget: string, required: false}
+                - label: Design
+                  name: design
+                  widget: object
+                  fields:
+                    - {label: Slide Height (e.g. 500px), name: slide_height, widget: string, default: "500px"}
+                    - {label: Fullscreen, name: is_fullscreen, widget: boolean, default: false}
+                    - {label: Loop, name: loop, widget: boolean, default: true}
+                    - {label: Interval (ms), name: interval, widget: number, default: 6000}
+
+            # === Hero ===
+            - label: Hero
+              name: hero
+              widget: object
+              fields:
+                - {label: block, name: block, widget: hidden, default: "hero"}
+                - label: Content
+                  name: content
+                  widget: object
+                  fields:
+                    - {label: Title, name: title, widget: text}
+                    - label: Image
+                      name: image
+                      widget: object
+                      fields:
+                        - {label: File, name: filename, widget: image}
+                    - {label: Text (Markdown), name: text, widget: markdown, required: false}
+
+            # === Collection ===
+            - label: Collection
+              name: collection
+              widget: object
+              fields:
+                - {label: block, name: block, widget: hidden, default: "collection"}
+                - label: Content
+                  name: content
+                  widget: object
+                  fields:
+                    - {label: Title, name: title, widget: string, required: false}
+                    - {label: Count, name: count, widget: number, default: 3}
+                    - label: Filters
+                      name: filters
+                      widget: object
+                      required: false
+                      fields:
+                        - {label: Author, name: author, widget: string, required: false}
+                        - {label: Category, name: category, widget: string, required: false}
+                        - {label: Tag, name: tag, widget: string, required: false}
+                        - {label: Publication Type, name: publication_type, widget: string, required: false}
+                        - {label: Exclude Featured, name: exclude_featured, widget: boolean, required: false}
+                    - {label: Offset, name: offset, widget: number, default: 0}
+                    - {label: Order, name: order, widget: select, options: [asc, desc], default: desc}
+                    - {label: Page Type, name: page_type, widget: select, options: [post, publication, project], default: post}
+                - label: Design
+                  name: design
+                  widget: object
+                  fields:
+                    - {label: View, name: view, widget: select, options: [card, list, compact, citation], default: card}
+                    - {label: Columns, name: columns, widget: string, default: "1"}
+
+            # === Markdown ===
+            - label: Markdown
+              name: markdown
+              widget: object
+              fields:
+                - {label: block, name: block, widget: hidden, default: "markdown"}
+                - label: Content
+                  name: content
+                  widget: object
+                  fields:
+                    - {label: Title, name: title, widget: string, required: false}
+                    - {label: Subtitle, name: subtitle, widget: string, required: false}
+                    - {label: Text (Markdown), name: text, widget: markdown}
+                - label: Design (optional)
+                  name: design
+                  widget: object
+                  required: false
+                  fields:
+                    - {label: Columns, name: columns, widget: string, default: "1"}
+                    - label: Background
+                      name: background
+                      widget: object
+                      required: false
+                      fields:
+                        - label: Image
+                          name: image
+                          widget: object
+                          required: false
+                          fields:
+                            - {label: File, name: filename, widget: image, required: false}
+                            - label: Filters
+                              name: filters
+                              widget: object
+                              required: false
+                              fields:
+                                - {label: Brightness (0–1), name: brightness, widget: number, value_type: float, min: 0, max: 1, step: 0.05, default: 1}
+                        - {label: Parallax, name: parallax, widget: boolean, default: false}
+                        - {label: Position, name: position, widget: select, options: [left, center, right, top, bottom], default: center}
+                        - {label: Size, name: size, widget: select, options: [auto, cover, contain], default: cover}
+                        - {label: Light Text, name: text_color_light, widget: boolean, default: true}
+                    - label: Spacing
+                      name: spacing
+                      widget: object
+                      required: false
+                      fields:
+                        - {label: Padding (top,right,bottom,left), name: padding, widget: list, default: ['20px','0','20px','0']}
+
+
+#local_backend: true
+local_backend:
+  url: http://localhost:8081/api/v1
+  allowed_hosts: ['localhost:1313', '127.0.0.1:1313']  # 你的 Hugo server 主机:端口
 media_folder: assets/media
 public_folder: /media
+
+
 

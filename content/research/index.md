@@ -18,6 +18,7 @@ sections:
       image:
         placement: right
         size: contain   # 或 cover****
+        
 
   - block: markdown
     content:
@@ -38,7 +39,7 @@ sections:
           <!-- Assistive Robotics -->
           <div class="row align-items-center g-4 my-5">
             <div class="col-md-5">
-              <img src="assistive.jpg" class="img-fluid rounded shadow-sm" alt="Assistive Robotics">
+              <img src="aloha.png" class="img-fluid rounded shadow-sm" alt="Assistive Robotics">
             </div>
             <div class="col-md-7">
               <h3 class="mb-2">Assistive Robotics</h3>
@@ -55,7 +56,7 @@ sections:
           <!-- Sign Language Generation (alternate layout) -->
           <div class="row align-items-center g-4 my-5 flex-md-row-reverse">
             <div class="col-md-5">
-              <img src="assistive.jpg" class="img-fluid rounded shadow-sm" alt="Sign Language Generation">
+              <img src="sign_gif.gif" class="img-fluid rounded shadow-sm" alt="Sign Language Generation">
             </div>
             <div class="col-md-7">
               <h3 class="mb-2">Sign Language Generation</h3>
@@ -72,7 +73,7 @@ sections:
           <!-- Computer Vision -->
           <div class="row align-items-center g-4 my-5">
             <div class="col-md-5">
-              <img src="assistive.jpg" class="img-fluid rounded shadow-sm" alt="Computer Vision">
+              <img src="hand_gif.gif" class="img-fluid rounded shadow-sm" alt="Computer Vision">
             </div>
             <div class="col-md-7">
               <h3 class="mb-2">Computer Vision</h3>
@@ -106,7 +107,7 @@ sections:
           <!-- Accessible AI & HCI -->
           <div class="row align-items-center g-4 my-5">
             <div class="col-md-5">
-              <img src="assistive.jpg" class="img-fluid rounded shadow-sm" alt="Accessible AI & HCI">
+              <img src="arm.webp" class="img-fluid rounded shadow-sm" alt="Accessible AI & HCI">
             </div>
             <div class="col-md-7">
               <h3 class="mb-2">Accessible AI & HCI</h3>
@@ -124,4 +125,57 @@ sections:
 
     design:
       columns: '1'
+    # 👇 新增：图片滚动（轮播）
+  - block: slider
+    content:
+      slides:
+        - title: 'Lab Equipment'
+          content: ''
+          align: center
+          background:
+            image:
+              filename: research/aloha.png   # 放到 assets/media/research/slider1.jpg
+              filters:
+                brightness: 0.6
+            position: center
+            color: '#000'                      # 可作轻微遮罩，便于文字可读
+        - title: 'Lab Equipment'
+          content: ''
+          align: center
+          background:
+            image:
+              filename: research/cart.png
+              filters:
+                brightness: 0.6
+            position: center
+            color: '#000'
+        - title: 'Lab Equipment'
+          content: ''
+          align: center
+          background:
+            image:
+              filename: research/dog.png
+              filters:
+                brightness: 0.6
+            position: center
+            color: '#000'
+        - title: 'Lab Equipment'
+          content: ''
+          align: center
+          background:
+            image:
+              filename: research/hello.webp
+              filters:
+                brightness: 0.6
+            position: center
+            color: '#000'
+    design:
+#      slide_height: '100px'   # 轮播高度
+      is_fullscreen: true
+      loop: true
+      interval: 2000          # 切换间隔（毫秒）
+#      css_class: slider-contain
+      spacing:
+        padding: ['20px', '20%', '20px', '20%']
+ 
 ---
