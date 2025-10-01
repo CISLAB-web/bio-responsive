@@ -18,22 +18,12 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-#      - title: Lunch & Learn ☕️
-#        content: 'Share your knowledge with the group and explore exciting new topics together!'
-#        align: left
-#        background:
-#          image:
-#            filename: contact.jpg
-#            filters:
-#              brightness: 0.7
-#          position: center
-#          color: '#555'
       - title: Computational Interactive System (CIS) Lab
         content: 'Join us and shape the future of interactive AI!'
         align: center
         background:
           image:
-            filename: welcome.jpg
+            filename: member.jpg
             filters:
               brightness: 0.5
           position: center
@@ -43,6 +33,16 @@ sections:
           icon_pack: fas
           text: Join Us
           url: ../bio-responsive/contact/
+      - title: "ITRC Talent Cultivation Conference 🏆"
+        content: "Award Winner at the ITRC Talent Cultivation Conference"
+        align: left
+        background:
+          image:
+            filename: award01.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '1000px'
@@ -65,10 +65,10 @@ sections:
 
   - block: collection
     content:
-      title: Latest News
+      title: Lab New & Updates
       subtitle:
       text:
-      count: 3
+      count: 5
       filters:
         author: ''
         category: ''
@@ -102,18 +102,18 @@ sections:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
 
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
+#  - block: collection
+#    content:
+#      title: Latest Preprints
+#      text: ""
+#      count: 5
+#      filters:
+#        folders:
+#          - publication
+#        publication_type: 'article'
+#    design:
+#      view: citation
+#      columns: '1'
 
   - block: markdown
     content:

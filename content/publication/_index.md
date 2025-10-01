@@ -1,6 +1,5 @@
 ---
-title: Development of a low-cost wearable sensing glove with multiple inertial
-  sensors and a light and fast orientation estimation algorithm
+title: Lab Publications
 view: citation
 banner:
   caption: ""
