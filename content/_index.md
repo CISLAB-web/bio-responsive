@@ -23,7 +23,7 @@ sections:
         align: center
         background:
           image:
-            filename: member.jpg
+            filename: member1.jpg
             filters:
               brightness: 0.5
           position: center
@@ -81,47 +81,53 @@ sections:
     design:
       view: card
       columns: '1'
+      
+# Latest Preprints
+  - block: collection
+    content:
+      title: Latest Published Papers
+      text: ""
+      count: 3
+      filters:
+        folders:
+          - publication
+        publication_type: ''
+    design:
+      view: card # citation
+      columns: '1'
+
   
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-#  - block: collection
+#  - block: markdown
 #    content:
-#      title: Latest Preprints
-#      text: ""
-#      count: 5
-#      filters:
-#        folders:
-#          - publication
-#        publication_type: 'article'
+#      title:
+#      subtitle: ''
+#      text:
 #    design:
-#      view: citation
 #      columns: '1'
+#      background:
+#        image: 
+#          filename: coders.jpg
+#          filters:
+#            brightness: 1
+#          parallax: false
+#          position: center
+#          size: cover
+#          text_color_light: true
+#      spacing:
+#        padding: ['20px', '0', '20px', '0']
+#      css_class: fullscreen
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-        
-    design:
-      columns: '1'
+
+
+
+# Meet the team button
+#  - block: markdown
+#    content:
+#      title:
+#      subtitle:
+#      text: |
+#        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+#        
+#    design:
+#      columns: '1'
 ---

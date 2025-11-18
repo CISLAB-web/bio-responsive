@@ -12,11 +12,12 @@ authors:
   - Heejae Kim
   - Byung-Mo Oh
   - Han Gil Seo
+author_notes: []
 publication: JMIR Serious Games
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: ""
   focal_point: Smart
   preview_only: false
 date: 2020-01-06T13:43:00.000+09:00

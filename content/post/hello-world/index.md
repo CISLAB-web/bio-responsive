@@ -4,9 +4,9 @@ subtitle: test
 date: 2025-08-20T15:18:39+09:00
 summary: SUMMARY OPTIONAL
 draft: false
-featured: true
+featured: false
 authors:
-  - CHUXIN
+  - .
 lastmod: 2025-08-20T15:18:39+09:00
 tags: []
 categories: []

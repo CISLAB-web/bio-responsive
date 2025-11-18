@@ -19,7 +19,11 @@ main:
     url: project
     weight: 50
 
-  - name: People
+  - name: Awards
+    url: awards
+    weight: 50
+
+  - name: About us
     url: people
     weight: 30
     identifier: people   # 给父菜单一个唯一 id
@@ -27,15 +31,19 @@ main:
   - name: Professor
     url: ./author/최용근/
     parent: people
-    weight: 31
+    weight: 29
   - name: Researcher
     url: researcher
     parent: people
-    weight: 32
+    weight: 30
   - name: Alumni
     url: Alumni
     parent: people
-    weight: 30
+    weight: 31
+  - name: Administration
+    url: Administration
+    parent: people
+    weight: 32
 
 #  - name: Events
 #    url: event

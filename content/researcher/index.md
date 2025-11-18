@@ -11,13 +11,15 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
+          - Postdoc
           - PhD
-          - Master
-          - Undergraduate
+#          - Master
           - Researchers
+          - Undergraduate
+          - Administration
     
-      sort_by: Params.last_name
-      sort_ascending: true
+#      sort_by: Params.last_name
+#      sort_ascending: true
     design:
       show_interests: true
       show_role: true

@@ -126,7 +126,8 @@ collections:
   label_singular: Author
   name: authors
   path: '{{slug}}/_index'
-- create: true
+
+- create: true  # post
   fields:
   - label: Title
     name: title
@@ -210,6 +211,8 @@ collections:
   label_singular: Post
   name: posts
   path: '{{slug}}/index'
+
+
 - create: true
   fields:
   - label: Title

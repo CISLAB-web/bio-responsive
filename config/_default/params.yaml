@@ -9,14 +9,14 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   font: native
-  font_size: L
+  font_size: M
 
 # SEO
 
 marketing:
   seo:
     site_type: Organization
-    local_business_type: ''
+    local_business_type: 'lab'
     org_name: 'Computational Interactive System (CIS) Lab, Dankook University. 단국대학교 CIS 연구실'
     description: 'CIS Lab advances accessible AI—assistive robotics, sign language generation, computer vision—for inclusive human–computer interaction.'
     twitter: 'GetResearchDev'
@@ -53,26 +53,26 @@ header:
 #      allow_commercial: false
 
 
-lab_footer:
-  enable: true
-  address: "Room 3xx, Dept. of Computer Science, Dankook University, Yongin, Korea"
-  phone: "+82-xx-xxxx-xxxx"
-  email: "cis@dankook.ac.kr"
-  # OpenStreetMap/高德/谷歌地图 iframe，留空则不显示地图
-  map_iframe: "https://www.openstreetmap.org/export/embed.html?bbox=127.12,37.2,127.14,37.22&layer=mapnik"
-  socials:
-    - icon_pack: fab     # Font Awesome Brand
-      icon: github
-      name: GitHub
-      url: "https://github.com/CISLAB-web"
-    - icon_pack: ai      # Academicons
-      icon: google-scholar
-      name: Google Scholar
-      url: "https://scholar.google.com/"
-    - icon_pack: fab
-      icon: linkedin
-      name: LinkedIn
-      url: "https://www.linkedin.com/"
+#lab_footer:
+#  enable: true
+#  address: "Room 3xx, Dept. of Computer Science, Dankook University, Yongin, Korea"
+#  phone: "+82-xx-xxxx-xxxx"
+#  email: "cis@dankook.ac.kr"
+#  # OpenStreetMap/高德/谷歌地图 iframe，留空则不显示地图
+#  map_iframe: "https://www.openstreetmap.org/export/embed.html?bbox=127.12,37.2,127.14,37.22&layer=mapnik"
+#  socials:
+#    - icon_pack: fab     # Font Awesome Brand
+#      icon: github
+#      name: GitHub
+#      url: "https://github.com/CISLAB-web"
+#    - icon_pack: ai      # Academicons
+#      icon: google-scholar
+#      name: Google Scholar
+#      url: "https://scholar.google.com/"
+#    - icon_pack: fab
+#      icon: linkedin
+#      name: LinkedIn
+#      url: "https://www.linkedin.com/"
 
 # Localization
 locale:
@@ -112,7 +112,7 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: wowchemy
+    provider: CHUXIN
     algolia:
       app_id: ''
       api_key: ''
