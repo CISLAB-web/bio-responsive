@@ -1,8 +1,8 @@
 ---
 title: Changho Kim
 avatar_filename: avatar.jpg
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: My research interests include robotic perception and control, embedded
+  systems, and high-reliability PCB circuit design.
 social:
   - display:
       header: false
@@ -14,3 +14,5 @@ superuser: false
 user_groups:
   - Postdoc
 ---
+
+My research interests include robotic perception and control, embedded systems, and high-reliability PCB circuit design.
