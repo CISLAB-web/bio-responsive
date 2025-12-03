@@ -13,6 +13,7 @@ social:
     icon_pack: far
     icon: .
     label: .
+email: 12191006@dankook.ac.kr
 superuser: false
 user_groups:
   - Postdoc
