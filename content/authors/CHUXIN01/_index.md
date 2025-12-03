@@ -1,5 +1,5 @@
 ---
-title: Chu Xin
+title: "Xin Chu "
 role: Professor of Artificial Intelligence
 avatar_filename: avatar.jpg
 organizations:
