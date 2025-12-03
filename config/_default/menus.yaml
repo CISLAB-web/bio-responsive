@@ -21,6 +21,7 @@ main:
 
   - name: Awards
     url: awards
+#    url: event
     weight: 50
 
   - name: About us
@@ -29,21 +30,25 @@ main:
     identifier: people   # 给父菜单一个唯一 id
 
   - name: Professor
-    url: ./author/최용근/
+    url: ./author/younggeun-choi/
+    parent: people
+    weight: 20
+#  - name: Researcher
+#    url: researcher
+#    parent: people
+#    weight: 30
+#  - name: Alumni
+#    url: Alumni
+#    parent: people
+#    weight: 31
+#  - name: Administration
+#    url: Administration
+#    parent: people
+#    weight: 32
+  - name: Members
+    url: people
     parent: people
     weight: 29
-  - name: Researcher
-    url: researcher
-    parent: people
-    weight: 30
-  - name: Alumni
-    url: Alumni
-    parent: people
-    weight: 31
-  - name: Administration
-    url: Administration
-    parent: people
-    weight: 32
 
 #  - name: Events
 #    url: event

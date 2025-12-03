@@ -15,7 +15,7 @@ education:
   courses: []
 superuser: true
 user_groups:
-  - Researchers
+  - Master
 last_name: Bighetti
 highlight_name: false
 first_name: Nelson

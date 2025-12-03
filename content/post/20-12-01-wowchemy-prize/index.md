@@ -1,6 +1,7 @@
 ---
-title: Richard Hendricks Wins First Place in the Wowchemy Prize
+title: Richard Hendricks Wins First Place in the Wowchemy Prize(이 사례를 참고하여 제작해주세요~
 date: 2020-12-01
+draft: true
 ---
 
 Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.

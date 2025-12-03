@@ -1,5 +1,5 @@
 ---
-title: 안진아
+title: Jina An
 avatar_filename: avatar
 social:
   - display:

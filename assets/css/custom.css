@@ -69,3 +69,19 @@
   .lab-footer__grid { grid-template-columns: 1.2fr 0.9fr 1fr; gap: 1.5rem; }
   .lab-footer { padding: 3rem 0; }
 }
+
+
+/* 1) 发表列表/文章元信息里的高亮作者：strong 标签 */
+.article-metadata .author-highlight,
+.article-metadata .pub-authors strong,
+.pub-authors strong {
+  color: #c00;
+  font-weight: 700;
+}
+
+/* 2) 如果主题把作者高亮用了 .author-highlight 之类的 class，也一起兜住 */
+.author-highlight a,
+.pub-authors .author-highlight {
+  color: #c00;
+  font-weight: 700;
+}
