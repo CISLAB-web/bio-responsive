@@ -1,6 +1,6 @@
 ---
-title: KimChangho
-avatar_filename: avatar
+title: Changho Kim
+avatar_filename: avatar.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 social:
