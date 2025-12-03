@@ -1,12 +1,14 @@
 ---
-title: 이철민
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+title: CheolMin Lee
+role: ""
+avatar_filename: avatar.jpg
+bio: My research interests include artificial intelligence, robotics, computer
+  vision, and imitation learning
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Robotics
+  - Computer Vision
+  - Imitation Learning
 social: []
 organizations: []
 education:
@@ -17,5 +19,5 @@ user_groups:
 last_name: Bighetti
 highlight_name: false
 first_name: Nelson
-email: ""
+email: a72250298@dankook.ac.kr
 ---
