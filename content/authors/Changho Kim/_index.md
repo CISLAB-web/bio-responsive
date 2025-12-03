@@ -17,11 +17,11 @@ organizations:
   - name: Dankook University
 education:
   courses:
-    - course: PhD
-      institution: Dankook University
+    - course: Ph.D. in Computer Science
+      institution: Dankook University, KR
       year: 2025
 email: 12191006@dankook.ac.kr
-superuser: false
+superuser: true
 user_groups:
   - Postdoc
 ---
