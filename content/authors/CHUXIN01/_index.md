@@ -1,5 +1,5 @@
 ---
-title: CHUXIN
+title: Chu Xin
 role: Professor of Artificial Intelligence
 avatar_filename: avatar.jpg
 organizations:
