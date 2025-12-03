@@ -1,5 +1,5 @@
 ---
-title: 최용근
+title: Younggeun Choi
 role: Professor, Dept. of Computer Engineering
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
@@ -8,12 +8,6 @@ interests:
   - Computational Linguistics
   - Robotics
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: mailto:test@example.org
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
