@@ -13,6 +13,13 @@ social:
     icon_pack: far
     icon: .
     label: .
+organizations:
+  - name: Dankook University
+education:
+  courses:
+    - course: PhD
+      institution: Dankook University
+      year: 2025
 email: 12191006@dankook.ac.kr
 superuser: false
 user_groups:
