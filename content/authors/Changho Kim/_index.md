@@ -9,7 +9,7 @@ interests:
 social:
   - display:
       header: false
-    link: .
+    link: Email
     icon_pack: far
     icon: .
     label: .
