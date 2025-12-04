@@ -5,12 +5,12 @@ authors:
   - 吳恩達
 title: Seonju Koo
 role: ""
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: My research interests include human robot interaction, reinforcement
+  learning, and llm
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Human Robot Interaction
+  - Reinforcement Learning
+  - Large Language Model
 social: []
 education:
   courses: []
