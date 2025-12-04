@@ -11,7 +11,7 @@ date_end: 2013-03-11T14:14:00.000+09:00
 all_day: true
 event: 스마트 로봇 앱개발 공모전
 event_url: https://www.yna.co.kr/view/AKR20130311132700061
-featured: false
+featured: true
 authors: []
 url_video: ""
 url_slides: ""
