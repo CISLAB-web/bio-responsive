@@ -6,7 +6,7 @@ featured: true
 image:
   filename: ""
   focal_point: ""
-  preview_only: true
+  preview_only: false
 ---
 * 사회적 약자를 위한 멀티&교차-모달 AI 기반 일상생활 보조 기술 개발
   과학기술정보통신부/정보통신기획평가원 (2024.07.01~2031.12.31)
