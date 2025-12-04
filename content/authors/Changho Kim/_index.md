@@ -9,8 +9,18 @@ interests:
 social:
   - display:
       header: false
+    icon_pack: ai
+    link: https://scholar.google.co.uk/xxxx
+    icon: google-scholar
+  - display:
+      header: false
+    link: https://github.com/xxxx
+    icon_pack: fab
+    icon: github
+  - display:
+      header: false
     link: mailto:12191006@dankook.ac.kr
-    icon_pack: far
+    icon_pack: fab
     icon: qq
     label: .
 organizations:
