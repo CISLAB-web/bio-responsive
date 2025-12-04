@@ -11,7 +11,7 @@ sections:
       text: |-
         **Join the CIS Lab @ Dankook University**
       
-        We are continuously recruiting motivated researchers (undergraduate interns, master’s, PhD, and postdocs). Our research spans assistive robotics, sign language generation, computer vision, human–robot interaction, and embodied AI.
+        We are continuously recruiting motivated researchers (undergraduate interns, master, PhD, and postdocs). Our research spans assistive robotics, sign language generation, computer vision, human–robot interaction, and embodied AI.
       
         **How to apply**
         - Email your CV, transcript (optional), and a brief statement of interests (≤300 words).
@@ -34,11 +34,11 @@ sections:
         longitude: '127.1262'
       directions: Room 504/520, Engineering Building 2, Dankook University
       office_hours:
-        - 'Monday 10:00 to 22:00'
-        - 'Tuesday 10:00 to 22:00'
-        - 'Wednesday 10:00 to 22:00'
-        - 'Thursday 10:00 to 22:00'
-        - 'Friday 10:00 to 22:00'
+        - 'Monday 10:00 to 17:00'
+        - 'Tuesday 10:00 to 17:00'
+        - 'Wednesday 10:00 to 17:00'
+        - 'Thursday 10:00 to 17:00'
+        - 'Friday 10:00 to 17:00'
 
       autolink: true
     
