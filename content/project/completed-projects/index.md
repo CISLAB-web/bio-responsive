@@ -6,7 +6,7 @@ featured: true
 image:
   filename: featured.png
   focal_point: Smart
-  preview_only: false
+  preview_only: true
 ---
 
 
