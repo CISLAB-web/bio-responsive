@@ -6,7 +6,7 @@ abstract: 과학기술정보통신부가 대학 정보통신기술(ICT) 인재�
 location: 서울 강남 코엑스
 date: 2019-04-24T13:57:00.000+09:00
 date_end: 2019-04-24T13:57:00.000+09:00
-all_day: false
+all_day: true
 event: 2019  ICT 창의인재 포럼
 event_url: https://www.boannews.com/media/view.asp?idx=78939&direct=mobile
 publishDate: 2019-04-24T13:57:00.000+09:00
