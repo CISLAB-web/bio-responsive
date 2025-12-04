@@ -13,6 +13,6 @@ draft: false
 featured: false
 image:
   filename: featured.jpg
-  focal_point: Right
+  focal_point: Smart
   preview_only: false
 ---
