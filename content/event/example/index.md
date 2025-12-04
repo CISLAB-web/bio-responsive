@@ -1,18 +1,17 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
-  tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin
-  condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus
-  urna, suscipit quis sapien eu, pulvinar tempor diam.
+abstract: " 단국대 학생 3명으로 구성된 'Kinteractive' 팀이 한국로봇산업진흥원이 주관한 스마트 로봇 앱개발 공모전에서
+  대상(한국로봇산업진흥원장상)을 차지했다. 임종국(27·응용컴퓨터공학과 석사), 양동석(26·응용컴퓨터공학과 석사),
+  이은비(24·컴퓨터학부·여)."
 slides: null
 url_pdf: ""
 summary: An example event.
-title: Example Event (이 사례를 참고하여 제작해주세요awards test~)
-location: Wowchemy HQ
+title: 2013 대한로봇산업진흥원 스마트 로봇대회 대상
+location: 한국로봇산업진흥원
 date: 2030-06-01T13:00:00.000Z
 date_end: 2030-06-01T15:00:00.000Z
 all_day: true
-event: Wowchemy Conference
-event_url: https://example.org
+event: 스마트 로봇 앱개발 공모전
+event_url: https://www.yna.co.kr/view/AKR20130311132700061
 featured: false
 authors: []
 url_video: ""
@@ -29,13 +28,6 @@ projects: null
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)"
   focal_point: Right
+  filename: avatar.jpg
 url_code: ""
 ---
-
-Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
-
-Further event details, including page elements such as image galleries, can be added to the body of this page.
