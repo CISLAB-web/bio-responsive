@@ -9,7 +9,22 @@ interests:
   - Robotics
   - Computer Vision
   - Imitation Learning
-social: []
+social:
+  - display:
+      header: false
+    link: https://scholar.google.co.uk/xxxx
+    icon_pack: fab
+    icon: google-scholar
+  - display:
+      header: false
+    link: https://github.com/xxxx
+    icon_pack: fab
+    icon: github
+  - display:
+      header: false
+    link: mailto:a72250298@dankook.ac.kr
+    icon_pack: fab
+    icon: qq
 organizations: []
 education:
   courses: []
