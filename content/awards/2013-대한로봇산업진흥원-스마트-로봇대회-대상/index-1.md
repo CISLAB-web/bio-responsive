@@ -10,7 +10,7 @@ event: 스마트 로봇 앱개발 공모전
 event_url: https://www.yna.co.kr/view/AKR20130311132700061
 publishDate: 2013-03-11T22:31:00.000+09:00
 draft: false
-featured: true
+featured: false
 image:
   filename: featured.jpg
   focal_point: Right
