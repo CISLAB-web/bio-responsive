@@ -1,6 +1,6 @@
 ---
 title: Jongwoo Kim
-role: Professor, Dept. of National Center of Excellence in Software
+role: ""
 avatar_filename: avatar.png
 bio: My research interests include distributed robotics, reinforcement learning.
 interests:
@@ -26,3 +26,4 @@ superuser: false
 user_groups:
   - PhD
 ---
+Professor, Dept. of National Center of Excellence in Software
