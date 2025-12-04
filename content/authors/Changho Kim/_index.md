@@ -9,9 +9,9 @@ interests:
 social:
   - display:
       header: false
-    link: Email
+    link: mailto:12191006@dankook.ac.kr
     icon_pack: far
-    icon: .
+    icon: qq
     label: .
 organizations:
   - name: Dankook University
