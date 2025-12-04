@@ -25,9 +25,13 @@ social:
     link: mailto:a72250298@dankook.ac.kr
     icon_pack: fab
     icon: qq
-organizations: []
+organizations:
+  - name: Dankook University
 education:
-  courses: []
+  courses:
+    - course: M.S. in Artificial Intelligence
+      institution: Dankook University
+      year: 2026
 superuser: true
 user_groups:
   - Master
