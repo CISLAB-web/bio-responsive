@@ -570,14 +570,6 @@ collections:
     name: featured
     required: false
     widget: boolean
-#  - label: Authors
-#    name: authors
-#    required: false
-#    widget: list
-#  - label: Tags
-#    name: tags
-#    required: false
-#    widget: list
   - label: Categories
     name: categories
     required: false
@@ -627,7 +619,7 @@ collections:
   folder: content/awards
   label: Awards
   label_singular: Awards
-  name: Awards
+  name: awards
   path: '{{slug}}/index'
 
 # Publications

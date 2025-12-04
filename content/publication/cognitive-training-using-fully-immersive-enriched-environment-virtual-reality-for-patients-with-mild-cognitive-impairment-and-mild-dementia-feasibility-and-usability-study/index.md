@@ -18,7 +18,7 @@ draft: false
 featured: false
 image:
   filename: ""
-  focal_point: Smart
+  focal_point: ""
   preview_only: false
 date: 2020-01-06T13:43:00.000+09:00
 ---
