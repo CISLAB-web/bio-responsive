@@ -493,7 +493,7 @@ collections:
   path: '{{slug}}/index'
 
 # Awards
-- create: true
+- create: true # Content
   fields:
   - label: Title
     name: title
@@ -570,6 +570,14 @@ collections:
     name: featured
     required: false
     widget: boolean
+  - label: Authors
+    name: authors
+    required: false
+    widget: list
+  - label: Tags
+    name: tags
+    required: false
+    widget: list
   - label: Categories
     name: categories
     required: false
@@ -621,7 +629,6 @@ collections:
   label_singular: Awards
   name: awards
   path: '{{slug}}/index'
-
 # Publications
 - create: true
   fields:
