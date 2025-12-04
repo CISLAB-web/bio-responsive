@@ -7,8 +7,8 @@ url_pdf: ""
 summary: An example event.
 title: 2013 대한로봇산업진흥원 스마트 로봇대회 대상
 location: 한국로봇산업진흥원
-date: 2030-06-01T13:00:00.000Z
-date_end: 2030-06-01T15:00:00.000Z
+date: 2013-12-01T22:01:00.000+09:00
+date_end: 2013-12-04T14:14:00.000+09:00
 all_day: true
 event: 스마트 로봇 앱개발 공모전
 event_url: https://www.yna.co.kr/view/AKR20130311132700061
@@ -22,7 +22,7 @@ address:
   region: CA
   postcode: "94305"
   country: United States
-publishDate: 2017-01-01T00:00:00.000Z
+publishDate: 2013-12-27T09:00:00.000+09:00
 tags: []
 projects: null
 image:
