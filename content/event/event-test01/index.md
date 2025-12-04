@@ -11,12 +11,12 @@ abstract: >+
 location: |+
   고양시 일산 킨텍스
 
-date: 2025-12-03T21:29:00.000+09:00
-date_end: 2025-12-11T21:29:00.000+09:00
+date: 2014-12-01T21:29:00.000+09:00
+date_end: 2014-12-01T21:29:00.000+09:00
 all_day: false
 event: "임베디드 SW 경진대회 "
 event_url: https://www.epnc.co.kr/news/articleView.html?idxno=48493
-publishDate: 2025-12-03T21:28:00.000+09:00
+publishDate: 2014-12-01T21:28:00.000+09:00
 draft: false
 featured: false
 image:
