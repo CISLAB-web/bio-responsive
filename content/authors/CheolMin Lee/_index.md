@@ -30,7 +30,7 @@ organizations:
 education:
   courses:
     - course: M.S. in Artificial Intelligence
-      institution: Dankook University
+      institution: Dankook University, KR
       year: 2026
 superuser: true
 user_groups:
