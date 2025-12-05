@@ -1,6 +1,7 @@
 ---
 title: Xin Chu
-avatar_filename: avatar.jpg
+highlight_name: true
+avatar_filename: avatar.png
 bio: My research interests include 3D hand object interaction， generative
   models, and multi-view vision systems.
 interests:
@@ -30,5 +31,4 @@ email: chuxin@dankook.ac.kr
 superuser: true
 user_groups:
   - PhD
-highlight_name: true
 ---
