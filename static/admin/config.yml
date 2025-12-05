@@ -132,6 +132,7 @@ collections:
     widget: select
     multiple: true
     options:
+      - Research Professor
       - Postdoc
       - PhD
       - Master

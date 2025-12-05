@@ -33,7 +33,7 @@ education:
 email: 12191006@dankook.ac.kr
 superuser: true
 user_groups:
-  - Postdoc
+  - Research Professor
 ---
 
 My research interests include robotic perception and control, embedded systems, and high-reliability PCB circuit design.
