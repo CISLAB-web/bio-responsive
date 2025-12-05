@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+      - title: Computational Interactive System (CIS) Lab
+        content: 'Join us and shape the future of interactive AI'
         align: center
         background:
           image:
@@ -19,7 +19,7 @@ sections:
           position: right
           color: '#666'
       - title: Computational Interactive System (CIS) Lab
-        content: 'Join us and shape the future of interactive AI!'
+        content: 'Join us and shape the future of interactive AI'
         align: center
         background:
           image:
@@ -33,7 +33,7 @@ sections:
           icon_pack: fas
           text: Join Us
           url: ../bio-responsive/contact/
-      - title: "ITRC Talent Cultivation Conference 🏆"
+      - title: "ITRC Talent Cultivation Conference"
         content: "Award Winner at the ITRC Talent Cultivation Conference"
         align: left
         background:
