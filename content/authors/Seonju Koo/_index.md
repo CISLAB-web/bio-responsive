@@ -1,7 +1,7 @@
 ---
 title: Seonju Koo
 role: ""
-avatar_filename: avatar.png
+avatar_filename: avatar.jpg
 organizations: []
 superuser: false
 authors:
