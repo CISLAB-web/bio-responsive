@@ -1,7 +1,7 @@
 ---
-title: Chongha Li
-avatar_filename: avatar.png
-bio: Human Robot Interaction
+title: Jongha  Lee
+avatar_filename: avatar.jpg
+bio: Artificial Intelligence, Computer Vision
 social:
   - display:
       header: false
@@ -10,7 +10,7 @@ social:
     icon: google-scholar
   - display:
       header: false
-    link: https://github.com/xxxx
+    link: https://github.com/LeeBellHa
     icon_pack: fab
     icon: github
   - display:
