@@ -3,6 +3,9 @@ title: Jongha  Lee
 role: Artificial Intelligence, Computer Vision
 avatar_filename: avatar.jpg
 bio: Artificial Intelligence, Computer Vision
+interests:
+  - Artificial Intelligence
+  - Computer Vision
 social:
   - display:
       header: false
