@@ -33,6 +33,23 @@ sections:
           icon_pack: fas
           text: Join Us
           url: ../bio-responsive/contact/
+          
+      - title: Computational Interactive System (CIS) Lab
+        content: 'Join us and shape the future of interactive AI'
+        align: center
+        background:
+          image:
+            filename: member2.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+        link:
+          icon: graduation-cap
+          icon_pack: fas
+          text: Join Us
+          url: ../bio-responsive/contact/
+      
       - title: "ITRC Talent Cultivation Conference"
         content: "Award Winner at the ITRC Talent Cultivation Conference"
         align: left
