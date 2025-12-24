@@ -4,7 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: DKU CIS LAB # Website name
-baseURL: 'https://cislab-web.github.io/bio-responsive/' # Website URL
+#baseURL: 'https://cislab-web.github.io/bio-responsive/' # Website URL
+baseURL: 'https://cislab-web.github.io/cis/' # Website URL
 
 ############################
 ## LANGUAGE
