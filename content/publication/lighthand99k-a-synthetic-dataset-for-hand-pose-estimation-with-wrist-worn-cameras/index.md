@@ -2,7 +2,6 @@
 title: "LightHand99K: A Synthetic Dataset for Hand Pose Estimation With
   Wrist-Worn Cameras"
 publication_types:
-  - paper-conference
   - article-journal
 authors:
   - Jeongho Lee
