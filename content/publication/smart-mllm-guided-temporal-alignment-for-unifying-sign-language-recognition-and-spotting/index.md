@@ -5,11 +5,11 @@ subtitle: ""
 publication_types:
   - paper-conference
 authors:
-  - EunjiChoi
-  - JunghoonSung
-  - SeongwhanCho
-  - XinChu
-  - YounggeunChoi
+  - Eunji Choi
+  - Junghoon Sung
+  - Seongwhan Cho
+  - Xin Chu
+  - Younggeun Choi
 publication: British Machine Vision Conference
 publication_short: BMVC2026
 abstract: Continuous sign language recognition (CSLR) aims to recognize gloss
@@ -36,7 +36,7 @@ featured: false
 tags:
   - "2026"
 image:
-  filename: featured
+  filename: bmvc2026.png
   focal_point: Smart
   preview_only: false
 date: 2026-07-01T11:16:00.000+09:00
