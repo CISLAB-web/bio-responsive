@@ -37,7 +37,7 @@ tags:
   - "2026"
 image:
   filename: bmvc2026.png
-  focal_point: Smart
+  focal_point: LEFT
   preview_only: false
 date: 2026-07-01T11:16:00.000+09:00
 ---
