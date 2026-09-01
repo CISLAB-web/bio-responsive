@@ -32,7 +32,7 @@ abstract: Fine-grained hand-object interaction (HOI) understanding relies on the
   challenging testbed for studying contact observability and multi-view HOI
   under near-field occlusion. The dataset and code will be publicly released
   upon acceptance.
-draft: false
+draft: true
 featured: false
 image:
   filename: fig011.png
